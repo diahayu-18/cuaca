@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halaman Web Pantauan Perubahan Suhu Harian</title>
+
+  <style>
+    /* ========== RESET DASAR ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* ========== BODY ========== */
+    body {
+      background: #f2f6f9;
+      padding: 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ========== HEADING ========== */
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    /* ========== HR / PEMBATAS ========== */
+    hr {
+      border: none;
+      height: 3px;
+      background: #3498db;
+      width: 120px;
+      margin: 10px auto 20px;
+      border-radius: 5px;
+    }
+
+    /* ========== PARAGRAF LOKASI ========== */
+    p {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    /* ========== IFRAME MAPS ========== */
+    iframe {
+      border-radius: 10px;
+      margin-bottom: 25px;
+      width: 100%;
+      height: 400px;
+      border: 0;
+    }
+
+    /* ========== TABEL ========== */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    table th,
+    table td {
+      border: 1px solid #dcdcdc;
+      padding: 12px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    /* HEADER KOLOM */
+    table th {
+      background: #3498db;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* WARNA BARIS SELANG-SELING */
+    table tr:nth-child(even) {
+      background: #f0f6fc;
+    }
+
+    /* HOVER EFEK BARIS */
+    table tr:hover {
+      background: #dff0ff;
+      transition: 0.2s;
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 600px) {
+      table th,
+      table td {
+        font-size: 14px;
+        padding: 8px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <h2>Kondisi Cuaca Daerah Bogor</h2>
+  <hr>
+  <p>Daerah Bogor, Jawa Timur, Indonesia</p>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49243.98565762516!2d106.7485312!3d-6.5950388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cab0f1bcd0a1%3A0x9fc1cfcf8901f65b!2sBogor%2C%20West%20Java!5e0!3m2!1sid!2sid!4v1701420000000"
+    loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>Hari</th>
+      <th>Tanggal</th>
+      <th>Suhu (°C)</th>
+      <th>Kelembapan</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Senin</td>
+      <td>1/12/25</td>
+      <td>31/22</td>
+      <td>63%</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Selasa</td>
+      <td>2/12/25</td>
+      <td>29/22</td>
+      <td>69%</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Rabu</td>
+      <td>3/12/25</td>
+      <td>29/22</td>
+      <td>81%</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>Kamis</td>
+      <td>4/12/25</td>
+      <td>30/22</td>
+      <td>79%</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>Jumat</td>
+      <td>5/12/25</td>
+      <td>29/22</td>
+      <td>78%</td>
+    </tr>
+
+    <tr>
+      <td>6</td>
+      <td>Sabtu</td>
+      <td>6/12/25</td>
+      <td>29/22</td>
+      <td>75%</td>
+    </tr>
+
+    <tr>
+      <td>7</td>
+      <td>Minggu</td>
+      <td>7/12/25</td>
+      <td>31/23</td>
+      <td>72%</td>
+    </tr>
+  </table>
+  <hr><p align="center">dibuat oleh &copy;Diah Ayu R</p>
+</body>
+
+</html>
+>
